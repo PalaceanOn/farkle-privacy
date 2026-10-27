@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Farkle</title>
+<meta name="description" content="Privacy policy for the Farkle app for Android and iPhone.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #f7f3ec; --surface: #fffdf8; --ink: #2e1c18; --soft: #6b544e;
+    --line: #e2d8c9; --accent: #8a5a3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12100f; --surface: #1b1816; --ink: #f5f2ea; --soft: #a49a90;
+      --line: #2e2926; --accent: #d9a273;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 1.5rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.15rem; margin: 2.5rem 0 .75rem; letter-spacing: -.01em;
+    padding-top: 1.25rem; border-top: 1px solid var(--line);
+  }
+  h1 + h2 { border-top: 0; padding-top: 0; margin-top: 1.5rem; }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .4rem 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .875em; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 4px; padding: .1em .35em; overflow-wrap: anywhere;
+  }
+  pre {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem; overflow-x: auto;
+  }
+  pre code { background: none; border: 0; padding: 0; font-size: .85rem; }
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .925rem; }
+  th, td { text-align: left; vertical-align: top; padding: .6rem .7rem; border-bottom: 1px solid var(--line); }
+  th { color: var(--soft); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+  footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--soft); font-size: .875rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — Farkle</h1>
+<p><strong>Last updated: 27 October 2026</strong></p>
+<h2>The short version</h2>
+<p>Farkle is a dice game. There is no account, no advertising, no analytics and no tracking. Your games, stats and settings stay on your phone. The only thing that ever leaves the phone is an online game, and only if you choose to play one: then the room, the name you type for it and the moves go to a game server so the other players can see them.</p>
+<h2>What stays on your phone</h2>
+<p>The app saves these on your device so you can pick up where you left off:</p>
+<ul><li>the game in progress, for pass-and-play, against the computer and in the scorekeeper</li><li>the players and rules you last used, and any rule sets you saved</li><li>your stats: the results of finished games</li><li>your settings, such as theme, vibration and keeping the screen on</li><li>a random ID for this install (16 letters and numbers, made on the phone, not linked to you or your device) and the code and name of the last online room you joined, so you can rejoin it</li></ul>
+<p>None of this is sent anywhere. Settings has buttons to clear your stats and delete saved games, and uninstalling the app removes all of it.</p>
+<h2>Online games</h2>
+<p>Online play is optional. When you create or join a room, the app sends the following to Google Firebase Realtime Database, the server that keeps the room in sync between phones:</p>
+<ul><li>the 4-letter room code</li><li>the name you type for yourself in that room (it can be anything; it does not have to be your real name)</li><li>the random install ID described above, so the room knows which seat is yours</li><li>the game settings, every move and score, and when they happened</li></ul>
+<p>Anyone who has the room code can see the room: the names, the seats and the game. Do not put anything private in your name.</p>
+<p>Like any internet service, Firebase receives your phone's IP address when the app connects. Google handles that under its own privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<p>Rooms are kept on the server after a game ends and are not linked to who you are. If you want a room deleted, email the address below with its code and it will be removed.</p>
+<h2>What the app does not do</h2>
+<ul><li>no sign-in and no account</li><li>no ads and no ad IDs</li><li>no analytics, crash reporting or tracking of any kind</li><li>no purchases</li><li>no access to your contacts, photos, camera, microphone or location</li><li>no selling or sharing of data with anyone</li></ul>
+<h2>Children</h2>
+<p>Farkle is a game for everyone. It does not ask for or knowingly collect personal information from anyone, including children. The only text a player types is a name for a game, which stays on the phone or, in an online game, in that room.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date at the top.</p>
+<h2>Contact</h2>
+<p>Questions or deletion requests: <a href="mailto:bragi.support@gmail.com">bragi.support@gmail.com</a></p>
+<footer>Farkle for Android and iPhone. This page is generated from PRIVACY.md in the app's source repository.</footer>
+</main>
+</body>
+</html>
